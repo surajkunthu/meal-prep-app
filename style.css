@@ -1,3 +1,81 @@
+html {
+  background-color: beige;
+}
+
 h1 {
-    color: blue;
+  color: blue;
+}
+
+#entireContainer {
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#inventoryContainer {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  padding: 5px;
+  border-color: black;
+}
+
+#recipeContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#weekContainer {
+  background-color: rgb(6, 96, 75);
+  border-radius: 5px;
+  padding: 5px;
+  width: 60%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#mondayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+#tuesdayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+#wednesdayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+#thursdayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+#fridayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+#saturdayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+#sundayContainer {
+  background-color: rgb(0, 217, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div {
+  border-style: solid;
+  border-color: black;
 }
